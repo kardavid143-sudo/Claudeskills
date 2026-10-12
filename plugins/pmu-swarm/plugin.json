@@ -1,0 +1,31 @@
+{
+  "name": "pmu-swarm",
+  "version": "1.0.0",
+  "description": "Coordinate small specialist PMUs around a shared goal, with independent approaches, evidence-based review, and bounded resource use.",
+  "author": {
+    "name": "David Kar"
+  },
+  "repository": "https://github.com/kardavid143-sudo/Claudeskills",
+  "license": "MIT",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "keywords": [
+    "pmu",
+    "multi-agent",
+    "research",
+    "monitoring-evaluation",
+    "project-management"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PMU Swarm",
+        "shortDescription": "Specialist teams that plan, build, and verify",
+        "developerName": "David Kar",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use PMU Swarm to clarify my goal, form small specialist teams, and deliver a verified result."
+        ]
+      }
+    }
+  }
+}

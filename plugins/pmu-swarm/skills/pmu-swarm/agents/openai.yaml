@@ -1,0 +1,4 @@
+interface:
+  display_name: "PMU Swarm"
+  short_description: "Coordinate specialist PMUs around your goal"
+  default_prompt: "Use $pmu-swarm to clarify my goal and coordinate small specialist teams to deliver it."

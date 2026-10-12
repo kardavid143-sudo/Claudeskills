@@ -1,0 +1,20 @@
+{
+  "name": "david-kar-skills",
+  "interface": {
+    "displayName": "David Kar Skills"
+  },
+  "plugins": [
+    {
+      "name": "pmu-swarm",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pmu-swarm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "david-kar-skills",
+  "owner": {
+    "name": "David Kar"
+  },
+  "plugins": [
+    {
+      "name": "pmu-swarm",
+      "source": "./plugins/pmu-swarm",
+      "description": "Coordinate small specialist PMUs around a shared goal, with independent approaches, evidence-based review, and bounded resource use."
+    }
+  ]
+}

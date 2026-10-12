@@ -1,0 +1,15 @@
+{
+  "name": "pmu-swarm",
+  "version": "1.0.0",
+  "description": "Coordinate small specialist PMUs around a shared goal, with independent approaches, evidence-based review, and bounded resource use.",
+  "author": {
+    "name": "David Kar"
+  },
+  "repository": "https://github.com/kardavid143-sudo/Claudeskills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PMU Swarm",
+    "shortDescription": "Specialist teams that plan, build, and verify"
+  }
+}
